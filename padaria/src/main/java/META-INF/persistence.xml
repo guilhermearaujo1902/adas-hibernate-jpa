@@ -4,6 +4,7 @@
 	
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<class>br.com.padaria.model.Categoria</class>
+		<class>br.com.padaria.model.Produto</class>
 	
 		<properties>
 			<property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/padaria"/>
